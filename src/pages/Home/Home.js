@@ -14,7 +14,7 @@ const Home = ({users}) => {
     <div className="container">
       <header className="header">
         <h1 className="header-main">Find Tech Mentor</h1>
-        <p className="header-main">{users.length} experienced developers found</p>
+        <p className="header-main">{users.length} developers found</p>
       </header>
 
       <div className="search-container">
